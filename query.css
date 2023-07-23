@@ -1,0 +1,206 @@
+
+/*-----------------------------------------
+------------------------------------------
+----------------MEDIA QUERIES------------
+--------------------------------------
+-----------------------------------*/
+
+
+
+
+@media screen and (max-width: 800px){
+    
+    
+
+
+header{
+   background-color: #ededed; 
+    height: 80vh;
+    
+}
+    h1{
+        font-size: 1.5rem;
+    }
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.sub-nav{
+    display:block;
+    position: absolute;
+    left:75%;
+    top: 5%;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    width: 93px;
+    max-height: 0px;
+    border-radius: 3px;  
+}
+
+.sub-nav li{
+    list-style: none;
+    text-transform: capitalize;
+    
+     
+}
+
+    #menuList{
+        overflow: hidden;
+        transition: 1s;
+    }
+.get-started-btn a{
+    padding: .3rem .7rem;
+    display: none;
+}
+    .drawer{
+        display: block;
+        width: 1rem;
+        
+    }
+    
+    .welcome-content{
+        width: 70%;
+    }
+    
+    .welcome-content p{
+        width: 100%
+    }
+
+    
+.twin-btns{
+   margin-top: 1.5rem;
+    display: grid;
+    place-items:center;
+    
+    
+}
+
+.btn-1{
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+     
+}
+    
+.btn-2{
+     width: 50%;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    display: block;
+    margin-top: .3rem
+}
+    
+.header-image{
+     display: grid;
+    place-items:center;
+    margin-top: 18rem;
+    margin-right: 2rem;
+    
+}
+
+.main-img{
+    max-width: 50%;
+}
+
+/*-----------------------------------------
+------------------------------------------
+----------------SECTION------------
+--------------------------------------
+-----------------------------------*/
+
+section{
+    padding-top: 3rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.heading-para{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.part-1{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0rem .5rem 0rem;
+}
+
+.section-image-1{
+    width: 18rem;
+}
+
+
+.part-2{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0rem .5rem 0rem;
+}
+
+/*-----------------------------------------
+------------------------------------------
+----------------FOOTER------------
+--------------------------------------
+-----------------------------------*/
+.foot{
+    display: block;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.inquiry{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4px 0px 5px;
+}
+.inquiry li{
+    display: none;
+}
+
+.top-list{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.last-btn{
+    margin-top: 5px;
+    display: block;
+    padding-top: 15px;
+}
+
+.foot a{
+    background-color: white ;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+
+
+
+}
+
+  
